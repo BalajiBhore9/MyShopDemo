@@ -2,48 +2,32 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-30T12:26:37 IST" name="Default suite" finished-at="2024-08-30T12:27:19 IST" duration-ms="41591">
+  <suite started-at="2024-10-06T23:12:08 IST" name="TestNG Group Test" finished-at="2024-10-06T23:12:08 IST" duration-ms="138">
     <groups>
+      <group name="group2">
+        <method signature="groupingTest.Test1()[pri:0, instance:TestNg.groupingTest@53aac487]" name="Test1" class="TestNg.groupingTest"/>
+        <method signature="groupingTest.Test2()[pri:0, instance:TestNg.groupingTest@53aac487]" name="Test2" class="TestNg.groupingTest"/>
+      </group> <!-- group2 -->
+      <group name="group1">
+        <method signature="groupingTest.Test1()[pri:0, instance:TestNg.groupingTest@53aac487]" name="Test1" class="TestNg.groupingTest"/>
+        <method signature="groupingTest.Test3()[pri:0, instance:TestNg.groupingTest@53aac487]" name="Test3" class="TestNg.groupingTest"/>
+      </group> <!-- group1 -->
     </groups>
-    <test started-at="2024-08-30T12:26:37 IST" name="Default test" finished-at="2024-08-30T12:27:19 IST" duration-ms="41591">
-      <class name="com.myshop.testcases.LogInPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.myshop.testcases.LogInPageTest@121314f7]" started-at="2024-08-30T12:26:37 IST" name="setup" finished-at="2024-08-30T12:26:50 IST" duration-ms="12855" status="PASS">
+    <test started-at="2024-10-06T23:12:08 IST" name="groupingTest" finished-at="2024-10-06T23:12:08 IST" duration-ms="138">
+      <class name="TestNg.groupingTest">
+        <test-method signature="Test1()[pri:0, instance:TestNg.groupingTest@53aac487]" started-at="2024-10-06T23:12:08 IST" name="Test1" finished-at="2024-10-06T23:12:08 IST" duration-ms="36" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="loginPageTitile()[pri:1, instance:com.myshop.testcases.LogInPageTest@121314f7]" started-at="2024-08-30T12:26:50 IST" name="loginPageTitile" finished-at="2024-08-30T12:26:50 IST" duration-ms="29" status="PASS">
+        </test-method> <!-- Test1 -->
+        <test-method signature="Test2()[pri:0, instance:TestNg.groupingTest@53aac487]" started-at="2024-10-06T23:12:08 IST" name="Test2" finished-at="2024-10-06T23:12:08 IST" duration-ms="18" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginPageTitile -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myshop.testcases.LogInPageTest@121314f7]" started-at="2024-08-30T12:26:50 IST" name="tearDown" finished-at="2024-08-30T12:26:50 IST" duration-ms="299" status="PASS">
+        </test-method> <!-- Test2 -->
+        <test-method signature="Test3()[pri:0, instance:TestNg.groupingTest@53aac487]" started-at="2024-10-06T23:12:08 IST" name="Test3" finished-at="2024-10-06T23:12:08 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.myshop.testcases.LogInPageTest@121314f7]" started-at="2024-08-30T12:26:50 IST" name="setup" finished-at="2024-08-30T12:27:01 IST" duration-ms="10124" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="myshopImgTest()[pri:2, instance:com.myshop.testcases.LogInPageTest@121314f7]" started-at="2024-08-30T12:27:01 IST" name="myshopImgTest" finished-at="2024-08-30T12:27:01 IST" duration-ms="48" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- myshopImgTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myshop.testcases.LogInPageTest@121314f7]" started-at="2024-08-30T12:27:01 IST" name="tearDown" finished-at="2024-08-30T12:27:01 IST" duration-ms="178" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.myshop.testcases.LogInPageTest@121314f7]" started-at="2024-08-30T12:27:01 IST" name="setup" finished-at="2024-08-30T12:27:13 IST" duration-ms="11842" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="logInTest()[pri:3, instance:com.myshop.testcases.LogInPageTest@121314f7]" started-at="2024-08-30T12:27:13 IST" name="logInTest" finished-at="2024-08-30T12:27:19 IST" duration-ms="5922" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logInTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myshop.testcases.LogInPageTest@121314f7]" started-at="2024-08-30T12:27:19 IST" name="tearDown" finished-at="2024-08-30T12:27:19 IST" duration-ms="250" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.myshop.testcases.LogInPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- Test3 -->
+      </class> <!-- TestNg.groupingTest -->
+    </test> <!-- groupingTest -->
+  </suite> <!-- TestNG Group Test -->
 </testng-results>
